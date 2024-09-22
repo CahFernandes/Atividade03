@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Atividade 03</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/jolie2.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">                    
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <!-- <ul class="navbar-nav me-auto mt-2 mt-lg-0"> -->
+                    <ul class="nav nav-pills me-auto mt-2 mt-lg-0" style="--bs-nav-link-color: var(--bs-primary); --bs-nav-pills-link-active-color: var(--bs-white); --bs-nav-pills-link-active-bg: var(--bs-primary);">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="index.html" aria-current="page"> Sobre mim </a>                            
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="projetos.html" aria-current="page"> Projetos </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="habilidades.html" aria-current="page"> Habilidades </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html" aria-current="page"> Contato </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search"/>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Buscar </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <h2 align="center">Projetos</h2>
+            <div id="carouselProjetos" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Atividade01.png" class="d-block w-100" alt="Projeto01">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Projeto 1</h5>
+                            <p><a href="https://github.com/CahFernandes/WEB.git" target="_blank">Página web sobre bitcoins</a></p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="img/Atividade02.png" class="d-block w-100" alt="Projeto02">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Projeto 2</h5>
+                            <p><a href="https://github.com/CahFernandes/WEB-Atvidade02.git" target="_blank">Página web sobre aves silvestres</a></p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item active">
+                        <img src="img/codigo2.jpg" class="d-block w-100" alt="Projeto03">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Projeto 3</h5>
+                            <p><a href="https://github.com/CahFernandes/Atividade03.git" target="_blank">Página web com Biografia sobre mim</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="btn btn-primary" onclick="nextSlide()">Próximo</button>
+        </main>
+
+        <footer>
+            <p><a href="https://www.linkedin.com/in/camila-fernandes-2894aaa2/" target="_blank"> &copy; Todos os Direitos Reservados - Camila M Fernandes Costa </a></p>
+        </footer>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous">
+        </script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous">
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>

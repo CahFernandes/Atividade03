@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> Atividade 03</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/jolie2.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">                    
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <!-- <ul class="navbar-nav me-auto mt-2 mt-lg-0"> -->
+                    <ul class="nav nav-pills me-auto mt-2 mt-lg-0" style="--bs-nav-link-color: var(--bs-primary); --bs-nav-pills-link-active-color: var(--bs-white); --bs-nav-pills-link-active-bg: var(--bs-primary);">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" href="index.html" aria-current="page"> Sobre mim </a>                            
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="projetos.html" aria-current="page"> Projetos </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="habilidades.html" aria-current="page"> Habilidades </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html" aria-current="page"> Contato </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search"/>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Buscar </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <header class="bg-light text-white text-center py-5">
+            <div class="container">
+                <!-- <img src="img/placamae.jpg" class="img-fluid" max-width="100%" height="auto" alt="computador"> -->
+            </div>            
+        </header>
+
+        <main class="py-5">
+            <section class="py-1">
+                <div class="container">
+                    <div class="row" align="center">
+                        <div class="col-md-12">
+                           <h1> Sobre mim </h1> 
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+            <div class = "row">
+                <aside>
+                    <h3> Biografia </h3>
+                    <p> 
+                        Meu nome é Camila Mauricio Fernandes Costa, tenho 36 anos, sou casada há três anos e atualmente trabalho como desenvolvedora (back-end - como podem ver, não me dou muito bem com front-end) em uma empresa de RPPS. A noite, faço um curso no SENAI de Programação. 
+                        Moro em Nova Lima desde que nasci. Estudei na Escola Municial Emília de Lima no primário e na Escola Estadual João Felipe da Rocha (Polivalente) no fundamental e Ensino Médio. 
+                        Gosto bastante de esportes e quando mais nova cheguei a praticar Capoeira, Natação, Fustsal, Handball, Basquete (sendo que Natação, Fustsal, Handball, Basquete sempre competia pela escola), TaekwonDo (cheguei até a faixa preta) e MuayThay.
+                        Adoro animais e crianças. Gosto muito de ler, ver series e filmes. 
+                    </p>
+                    
+                </aside>
+            </div>
+            
+            <div class = "row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <div class="imagemindex">
+                                <img src="img/basquete.jpg" alt="jogador basquete">
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4 mb-3">
+                            <div class="imagemindex">
+                                <img src="img/taekwondo.jpg" alt="lutador taekwondo">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mb-3">
+                            <div class="imagemindex">
+                                <img src="img/futsal.jpg" alt="jogador futsal">
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+
+        </main>
+
+        <footer>
+            <p><a href="https://www.linkedin.com/in/camila-fernandes-2894aaa2/" target="_blank"> &copy; Todos os Direitos Reservados - Camila M Fernandes Costa </a></p>
+            <button class="btn btn-secondary" onclick="toggleTheme()">Alterar Tema</button>
+        </footer>
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous">
+        </script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous">
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
